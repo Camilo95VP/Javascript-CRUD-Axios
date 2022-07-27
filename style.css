@@ -1,0 +1,88 @@
+* {
+    transition: all 0.3s;
+  }  
+body{
+    background-image: url(dfragonball.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 600px;
+    position: relative;
+    left: 15%;
+    top: 40px;
+    text-align: center;
+    display: grid;
+    gap: 10px;
+}
+.container-crud th {
+    /* background-color: #fff; */
+    font-size: 30px;
+}
+.container-crud table{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
+table td {
+    color: #fff;
+    font-size: 20px;
+}
+.cont-form{
+    width: 100%;
+    padding: 5px;
+}
+.in1{
+    width: 50%;
+    padding: 5px;
+    border-radius: 8px;
+    color: rgb(167, 58, 0);
+    font-size: 18px;
+}
+.in2{
+    width: 50%;
+    padding: 5px;
+    position: relative;
+    top: 10px;
+    border-radius: 8px;
+    color: rgb(161, 56, 0);
+    font-size: 18px;
+}
+.in3{
+    width: 20%;
+    padding: 5px;
+    position: relative;
+    top: 20px;
+    background-color: rgba(50, 149, 0, 0.575);
+    color: white;
+    border-radius:10px;
+}
+.in3:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: 2px 3px 15px 5px #000000; 
+    box-shadow: 2px 3px 15px 5px #000000;
+}
+.edit{
+    background-color: rgba(0, 102, 255, 0.683);
+    color: white;
+    padding: 5px;
+    border-radius:10px;
+}
+.edit:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: 2px 3px 15px 5px #000000; 
+    box-shadow: 2px 3px 15px 5px #000000;
+}
+.delete{
+    background-color: rgba(165, 0, 0, 0.636);
+    color: white;
+    padding: 5px;
+    border-radius:10px;
+}
+.delete:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: 2px 3px 15px 5px #000000; 
+    box-shadow: 2px 3px 15px 5px #000000;
+}

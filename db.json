@@ -1,56 +1,66 @@
 {
-    "dragonball": [
-        {
-            "id": 1,
-            "nombre": "Goku",
-            "nivel": "1000"
-        },
-        {
-            "id": 2,
-            "nombre": "Vegeta",
-            "nivel": "500"
-        },
-        {
-            "id": 3,
-            "nombre": "Piccolo",
-            "nivel": "100"
-        },
-        {
-            "id": 4,
-            "nombre": "Majin Buu",
-            "nivel": "300"
-        },
-        {
-            "id": 5,
-            "nombre": "Trunks",
-            "nivel": "50"
-        }
-    ],
-    "mundos": [
-        {
-            "id": 1,
-            "nombre": "Camino de la Serpiente",
-            "composicion": "Tierra"
-        },
-        {
-            "id": 2,
-            "nombre": "Mansión de Enma Daiō",
-            "composicion": "Arena"
-        },
-        {
-            "id": 3,
-            "nombre": "Paraíso",
-            "composicion": "Agua"
-        },
-        {
-            "id": 4,
-            "nombre": "Planeta Kaiō",
-            "composicion": "Lodo"
-        },
-        {
-            "id": 5,
-            "nombre": "Planeta Gran Kaiō",
-            "composicion": "Fuego"
-        }
-    ]
+  "dragonball": [
+    {
+      "nombre": "Goku",
+      "nivel": "1000000",
+      "id": 1
+    },
+    {
+      "nombre": "Vegeta",
+      "nivel": "5000",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Piccolo",
+      "nivel": "100"
+    },
+    {
+      "id": 4,
+      "nombre": "Majin Buu",
+      "nivel": "300"
+    },
+    {
+      "id": 5,
+      "nombre": "Trunks",
+      "nivel": "50"
+    },
+    {
+      "nombre": "goten",
+      "nivel": "1098",
+      "id": 6
+    },
+    {
+      "nombre": "Gojan",
+      "nivel": "2000",
+      "id": 7
+    }
+  ],
+  "mundos": [
+    {
+      "id": 1,
+      "nombre": "Camino de la Serpiente",
+      "composicion": "Tierra"
+    },
+    {
+      "id": 2,
+      "nombre": "Mansión de Enma Daiō",
+      "composicion": "Arena"
+    },
+    {
+      "id": 3,
+      "nombre": "Paraíso",
+      "composicion": "Agua"
+    },
+    {
+      "id": 4,
+      "nombre": "Planeta Kaiō",
+      "composicion": "Lodo"
+    },
+    {
+      "id": 5,
+      "nombre": "Planeta Gran Kaiō",
+      "composicion": "Fuego"
+    }
+  ]
 }

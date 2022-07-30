@@ -2,7 +2,7 @@
   "dragonball": [
     {
       "nombre": "Goku",
-      "nivel": "1000000",
+      "nivel": "5",
       "id": 1
     },
     {
@@ -29,11 +29,6 @@
       "nombre": "goten",
       "nivel": "1098",
       "id": 6
-    },
-    {
-      "nombre": "Gojan",
-      "nivel": "2000",
-      "id": 7
     }
   ],
   "mundos": [

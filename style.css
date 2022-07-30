@@ -2,7 +2,7 @@
     transition: all 0.3s;
   }  
 body{
-    background-image: url(dfragonball.png);
+    background-image: url(images/dfragonball.png);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

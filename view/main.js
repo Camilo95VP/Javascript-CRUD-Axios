@@ -1,5 +1,5 @@
-/* **********     Curso JavaScript: 117. APIs REST: CRUD con Fetch (1/2) - #jonmircha     ********** */
-    /* **********     Curso JavaScript: 118. APIs REST: CRUD con Fetch (2/2) - #jonmircha     ********** */
+import { Config } from "../config.js";
+// Levantar el servidor: json-server -p -w db.json
     const d = document,
       $table = d.querySelector(".crud-table"),
       $form = d.querySelector(".crud-form"),
@@ -9,7 +9,7 @@
 
     const getAll = async () => {
       try {
-        let res = await fetch("http://localhost:4444/dragonball"),
+        let res = await fetch(`${Config.API_FAKE}`),
           json = await res.json();
 
         if (!res.ok) throw { status: res.status, statusText: res.statusText };
@@ -53,7 +53,7 @@
                 nivel: e.target.nivel.value
               })
             },
-              res = await fetch("http://localhost:4444/dragonball", options),
+              res = await fetch(`${Config.API_FAKE}`, options),
               json = await res.json();
 
             if (!res.ok) throw { status: res.status, statusText: res.statusText };
@@ -76,7 +76,7 @@
                 nivel: e.target.nivel.value
               })
             },
-              res = await fetch(`http://localhost:4444/dragonball/${e.target.id.value}`, options),
+              res = await fetch(`${Config.API_FAKE}${e.target.id.value}`, options),
               json = await res.json();
 
             if (!res.ok) throw { status: res.status, statusText: res.statusText };
@@ -110,7 +110,7 @@
                 "Content-type": "application/json; charset=utf-8"
               }
             },
-              res = await fetch(`http://localhost:4444/dragonball/${e.target.dataset.id}`, options),
+              res = await fetch(`${Config.API_FAKE}${e.target.dataset.id}`, options),
               json = await res.json();
 
             if (!res.ok) throw { status: res.status, statusText: res.statusText };

@@ -1,6 +1,4 @@
-# Javascript-CRUD-Axios
-
-_Crud realizado con axios_
+# Javascript-CRUD-Fetch
 
 ## Comenzando 🚀
 
@@ -19,7 +17,6 @@ _para poder levantar el servicio de la API FAKE
 
 _Javascript_
 
-## Despliegue 📦
 
 
 

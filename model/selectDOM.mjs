@@ -1,6 +1,7 @@
 /**
- * Clase modelo para seleccionar componentes del DOM
- * @autor - Juan Camilo Castañeda
+ * Clase modelo para seleciionar elementos del DOM
+ * @author Juan Camilo Castañeda Castro
+ * @version 1.0.0
  */
 export class SelectDOM {
   table;
@@ -9,7 +10,7 @@ export class SelectDOM {
   template;
   fragment;
   /**
-   * Constructo de clase para iniciar valiables
+   * Constructor de clase para iniciar valiables
    */
   constructor() {
     this.table = document.querySelector(".crud-table");

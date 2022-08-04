@@ -6,7 +6,7 @@ _Puedes clonar el repositorio y enviar segerencias._
 
 ### Pre-requisitos 📋
 
-_No tiene con requisitos especiales_
+_No tiene requisitos especiales_
 
 ### Instalación 🔧
 
